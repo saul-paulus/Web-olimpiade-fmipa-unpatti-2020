@@ -1,0 +1,297 @@
+body,
+html {
+    width: 100% !important;
+    overflow-x: hidden !important;
+    color: #12141C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: #12141C !important;
+}
+
+.navbar .masuk {
+    background-color: #FFA500;
+    color: #12141C;
+    font-weight: 500;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    transition: all 0.3s;
+}
+
+.navbar .masuk:hover {
+    background-color: #d38a02;
+}
+
+.header {
+    background-color: #FFA500;
+    margin-top: 5.5rem;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.header h1 {
+    font-size: 2rem !important;
+}
+
+.header img {
+    max-width: 100%;
+}
+
+.header-title a {
+    background-color: #12141C;
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.header-title a:hover {
+    color: #FFA500;
+}
+
+.header-category table h2 {
+    color: #e7e5e5;
+}
+
+.mediainformasi,
+.peserta,
+.tahap-daftar {
+    margin-top: 10rem;
+}
+
+.peserta .card {
+    cursor: pointer;
+    height: 33rem !important;
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.peserta .card:hover {
+    transform: translateY(-20px);
+}
+
+.peserta .card h5 {
+    padding-bottom: 1rem;
+}
+
+.peserta ul li {
+    padding: 10px !important;
+}
+
+.peserta ul li p {
+    font-size: 1.2rem !important;
+}
+
+.peserta .card a {
+    padding: 10px;
+    background-color: #12141C;
+}
+
+.panduan a {
+    display: inline-block;
+    padding: 15px;
+    margin: 20px !important;
+    background-color: #12141C;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.panduan a:hover {
+    color: #FFA500;
+}
+
+.galerifoto h1,
+.mediainformasi h1,
+.peserta h2,
+.tahap-daftar h1 {
+    margin-bottom: 5rem;
+}
+
+.tahap-daftar img {
+    display: block;
+    height: 10rem !important;
+}
+
+.tahap-daftar .card {
+    border: none;
+}
+
+
+/* ========================================== */
+
+.tentang {
+    margin-top: 5rem;
+    padding-top: 5rem !important;
+    padding-bottom: 10rem !important;
+    background-color: #FFA500;
+}
+
+.tentang p {
+    text-align: justify;
+}
+
+.bidang-lomba {
+    color: #12141C;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+
+.bidang-lomba ul li {
+    padding: 10px;
+}
+
+
+/* ============================ */
+
+.osmipa {
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+    background-color: #FFA500;
+}
+
+.osmipa h1 {
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+
+.osmipa a {
+    text-align: center;
+    background-color: #12141C;
+    padding: 20px;
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.osmipa a:hover {
+    color: #FFA500;
+}
+
+
+/* =================================== */
+
+.kontak {
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+    background-color: #FFA500;
+}
+
+.kontak h1 {
+    margin-bottom: 8rem !important;
+}
+
+.kontak .card a {
+    text-decoration: none !important;
+    font-size: 15px !important;
+    padding: 15px;
+    background-color: #12141C;
+    font-weight: 600;
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.osmipa a:hover {
+    transform: translateX(20px);
+}
+
+.kontak .card img {
+    width: 60%;
+}
+
+.galerifoto {
+    text-align: center;
+    background-color: #FFA500;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+}
+
+.galerifoto img {
+    width: 15rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #12141C;
+}
+
+
+/* break points */
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .header h1 {
+        font-size: 1.5rem !important;
+    }
+    .header a {
+        padding: 15px !important;
+        font-size: 3.5vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /*  */
+    .header-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    /*  */
+    .header-title {
+        margin-top: 5rem !important;
+    }
+    .header h1 {
+        font-size: 1.3rem !important;
+    }
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    /*  */
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /*  */
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /*  */
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
