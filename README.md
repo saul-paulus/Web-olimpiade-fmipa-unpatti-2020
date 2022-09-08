@@ -6,3 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+
+
+Ini adalah sebuah aplikasi Web singgle page dengan tema olimpiade yang dibangun dengan memanfaatkan Laravel 8. untuk menjalankan aplikasi tersebut, silahkan clone dan ekstrak kemudia jalankan sesuai printah dasar Laravel
