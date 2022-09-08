@@ -11,6 +11,8 @@
 
 Ini adalah sebuah aplikasi Web singgle page dengan tema olimpiade yang dibangun dengan memanfaatkan Laravel 8. 
 sebelum aplikasi dibuat, saya terlebih dahulu mendesain tampilan UI seperti ini : 
+
+
 https://www.figma.com/proto/5pW4u0S78WIMVywJJrIiYB/Design-web-olimpiade-MIPA?node-id=3%3A5&starting-point-node-id=3%3A5
 
 untuk menjalankan aplikasi tersebut, silahkan clone dan ekstrak kemudia jalankan sesuai printah dasar Laravel.
