@@ -17,5 +17,6 @@ https://www.figma.com/proto/5pW4u0S78WIMVywJJrIiYB/Design-web-olimpiade-MIPA?nod
 
 untuk menjalankan aplikasi tersebut, silahkan clone dan ekstrak kemudia jalankan sesuai printah dasar Laravel.
 
+
 Aplikasi ditampilkan seperti ini: 
 https://fmipaolimpiadesains.me/
